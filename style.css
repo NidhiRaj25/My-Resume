@@ -1,0 +1,268 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    min-height: 700px;
+    margin: 50px;
+    background: #fff;
+    display:grid;
+    grid-template-columns:1fr 2fr ;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.container .left_container {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+
+}
+
+.profileText {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+
+}
+
+.profileText .imgBox {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow:hidden;
+    
+}
+
+.profileText .imgBox img  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.profileText h2 {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4rem;
+}
+
+.profileText h2 span {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.contactInfo {
+    padding-top: 30px;
+
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+
+.contactInfo ul {
+    position: relative;
+    width: 100%;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px ;
+    font-size: 12px;
+    color: #03a9f4;
+    width: 10%;
+    
+}
+
+.contactInfo ul li span {
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 300;
+    width: 90%;
+}
+
+.contactInfo.certification li{
+    margin-bottom: 10px;
+}
+
+.contactInfo.certification h5{
+    color: #03a9f4;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-bottom: 4px;
+}
+
+.contactInfo.certification h4 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.85rem;
+    padding-bottom: 4px;
+}
+
+.contactInfo.languages .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+
+}
+
+.contactInfo.languages .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+.container .right_container {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    
+}
+
+/* ABOUT */
+
+.about{
+    margin-bottom: 30px;
+    
+}
+
+.title2 {
+    color: #003147;
+    font-size: 1.2rem ;
+    font-weight: 600 ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 ; 
+}
+
+.about .box .year {
+   width: 30%;
+}
+
+.about .box .year h5 {
+    text-transform: uppercase;
+    color: #848c98;
+    text-align: right;
+}
+
+.about .box .text{
+    width: 70%;
+}
+
+.about .box .text h3 {
+    font-size: 0.9rem;
+    color: #03a9f4;
+    
+}
+
+.about .box .text h4 {
+    font-size: 0.8rem;
+    font-weight: 540;
+    margin-bottom: 1px;
+    
+}
+
+.about .applications h3 {
+    color: #03a9f4;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.about .applications ul{
+    font-size: 0.8rem;
+    font-weight: 530;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px !important;
+    padding-left: 15px;
+    /* list-style-position: inside; */
+    
+        /* list-style-type: none; */
+        margin: 0;
+        padding: 0;
+    
+}
+
+.about .heading h3 {
+    color: #03a9f4;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.about .heading h4 {
+    font-size: 0.8rem;
+    font-weight:530;
+    letter-spacing: 0.3px;
+    margin-bottom: 5px;
+    
+}
+
+.about .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+
+}
+
+.about .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
